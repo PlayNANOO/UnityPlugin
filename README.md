@@ -8,9 +8,12 @@ PlayNANOO Plugin Version 2.0.0
 
 ## Update History
 
-Version 2.0.0 - Android ARM64 Support
+* Version 2.0.0
+    * ARM64 Support
+    * iOS Build Bugfix
 
-Version 1.0.0 - First Release
+* Version 1.0.0
+    * First Release
 
 ## Overview
 
