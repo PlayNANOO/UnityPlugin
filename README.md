@@ -8,6 +8,9 @@ PlayNANOO Plugin Version 2.0.0
 
 ## Update History
 
+* Version 2.0.1
+    * iOS 10.x less webservice bugfix
+
 * Version 2.0.0
     * ARM64 Support
     * iOS Build Bugfix
