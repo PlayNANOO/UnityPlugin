@@ -4,12 +4,13 @@ _Copyright (c) 2019 NANOO Company Inc. All rights reserved._
 PlayNANOO Plugin for Unity has server-side features that are available to game developers for free without needing to deploy a server.
 
 ## Version
-PlayNANOO Plugin Version 2.0.0
+PlayNANOO Plugin Version 2.0.1
 
 ## Update History
 
 * Version 2.0.1
     * iOS 10.x less webservice bugfix
+    * iOS File Upload bugfix
 
 * Version 2.0.0
     * ARM64 Support
