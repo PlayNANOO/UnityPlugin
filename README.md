@@ -4,9 +4,13 @@ _Copyright (c) 2019 NANOO Company Inc. All rights reserved._
 PlayNANOO Plugin for Unity has server-side features that are available to game developers for free without needing to deploy a server.
 
 ## Version
-PlayNANOO Plugin Version 2.0.1
+PlayNANOO Plugin Version 2.0.2
 
 ## Update History
+
+* Version 2.0.2
+    * Ranking Country Field Disable
+    * Bug Fix
 
 * Version 2.0.1
     * iOS 10.x less webservice bugfix
@@ -579,9 +583,6 @@ plugin.Ranking("Ranking Unique Code", "Number of queries (50 max.)", (result) =>
 
 // Season Ranking Inquiry
 plugin.Ranking("Ranking Unique Code", "Season Number", "Number of queries (50 max.)", (result) => { Debug.Log(result); }); 
-
-// Country Season Ranking Inquiry
-plugin.Ranking("Ranking Unique Code", "Season Number", "Country Code", "Number of queries (50 max.)", (result) => { Debug.Log(result); }); 
 ```	
 
 **Result**
@@ -620,7 +621,7 @@ Records user's play score and updates to the ranking in real-time.
 **Example**
 ```csharp
 plugin.SetInfo("User Unique ID", "Nickname", "Language Code");
-plugin.RankingRecord("Ranking Unique Code", "Country Code", "Acquired Score", "Additional Data", (result) => { Debug.Log(result); }); 
+plugin.RankingRecord("Ranking Unique Code", "Acquired Score", "Additional Data", (result) => { Debug.Log(result); }); 
 ```	
 
 **Result**
