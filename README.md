@@ -4,9 +4,13 @@ _Copyright (c) 2019 NANOO Company Inc. All rights reserved._
 PlayNANOO Plugin for Unity has server-side features that are available to game developers for free without needing to deploy a server.
 
 ## Version
-PlayNANOO Plugin Version 2.0.2
+PlayNANOO Plugin Version 2.1.0
 
 ## Update History
+
+* Version 2.1.0
+    * Added Coupon Callback URL 
+    * Bug Fix
 
 * Version 2.0.2
     * Ranking Country Field Disable
@@ -247,13 +251,20 @@ plugin.OpenHelp();
 
 ## Coupons
 
-Looks up event coupons.
+Looks up event coupons.<br>
+Send result value to external server with CallbackURL function.
 
 **Example**
 ```csharp
 plugin.SetInfo("User Unique ID", "Nickname", "Language Code");
 plugin.Coupon("Coupon Code", (result) => { Debug.Log(result); });
-```	
+``` 
+
+**Example for Callback URL**
+```csharp
+plugin.SetInfo("User Unique ID", "Nickname", "Language Code");
+plugin.Coupon("Coupon Code", "https://~~~" (result) => { Debug.Log(result); });
+``` 
 
 **Result**
 ```csharp
@@ -276,6 +287,23 @@ plugin.Coupon("Coupon Code", (result) => { Debug.Log(result); });
 * item_code - Item code
 * item_count - Item quantity 
 * hash - HASH information
+
+**CallbackURL Description**
+
+Send data result value to a selected external server using CallbackURL.<br>
+The transmitted parameter values are as the following.
+
+* uuid - Unique user ID
+* item_code - Item code
+* item_count - Item quantity
+* ts - UnixTimeStamp
+* hash - Hash information for verification
+   * Verfication hash is generated in SHA256.
+   * Data format (GameID + ServiceKey + SecretKey + UUID + Item_Code + Item_Count + UnixTimeStamp)
+   * e.g. HelloWorld -> 872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4
+
+“OK” should be displayed as output on CallbackURL page after data is processed.<br>
+If the value is not displayed or is of a different result value, it will be saved as issue failure in coupon activity.
 
 ## Postbox 
 
