@@ -294,12 +294,13 @@ Send data result value to a selected external server using CallbackURL.<br>
 The transmitted parameter values are as the following.
 
 * uuid - Unique user ID
+* code - Coupon code
 * item_code - Item code
 * item_count - Item quantity
 * ts - UnixTimeStamp
 * hash - Hash information for verification
    * Verfication hash is generated in SHA256.
-   * Data format (GameID + ServiceKey + SecretKey + UUID + Item_Code + Item_Count + UnixTimeStamp)
+   * Data format (GameID + ServiceKey + SecretKey + UUID + code + Item_Code + Item_Count + UnixTimeStamp)
    * e.g. HelloWorld -> 872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4
 
 “OK” should be displayed as output on CallbackURL page after data is processed.<br>
