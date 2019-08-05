@@ -4,9 +4,13 @@ _Copyright (c) 2019 NANOO Company Inc. All rights reserved._
 PlayNANOO Plugin for Unity has server-side features that are available to game developers for free without needing to deploy a server.
 
 ## Version
-PlayNANOO Plugin Version 2.1.1
+PlayNANOO Plugin Version 2.1.2
 
 ## Update History
+
+* Version 2.1.2
+    * Fixed error in running Forums and Customer Center
+    * Bug Fix
 
 * Version 2.1.1
     * Fixed bug where adding inquiry category does not function correctly 
