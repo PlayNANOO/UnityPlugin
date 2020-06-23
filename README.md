@@ -14,6 +14,9 @@ Features
 * User data storage
 * Game configuration data storage
 * Real-time ranking
+* Invite
+* Players
+* Applink & Universal link
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
 
