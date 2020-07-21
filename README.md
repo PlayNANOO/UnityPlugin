@@ -15,6 +15,8 @@ Features
 * Game configuration data storage
 * Real-time ranking
 * Invite
+* Friends
+* Cache Storage
 * Players
 * Applink & Universal link
 
