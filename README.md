@@ -19,6 +19,8 @@ Features
 * Cache Storage
 * Players
 * Applink & Universal link
+* Cloud Code
+* Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
 
