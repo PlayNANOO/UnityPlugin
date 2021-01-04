@@ -20,6 +20,7 @@ Features
 * Players
 * Applink & Universal link
 * Cloud Code
+* Currency
 * Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
