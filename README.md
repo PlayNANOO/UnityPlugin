@@ -5,6 +5,7 @@ Use Play! NANOO plugin to build mobile game server and management tools using th
 
 Features
 
+* Account
 * Community forum
 * Real-time user support center
 * In-game coupons
