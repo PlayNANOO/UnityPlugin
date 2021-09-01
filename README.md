@@ -5,23 +5,22 @@ Use Play! NANOO plugin to build mobile game server and management tools using th
 
 Features
 
+* Dashboard
 * Account
-* Community forum
-* Real-time user support center
-* In-game coupons
-* Inbox & gift Box
+* Forum
+* HelpDesk
+* Coupons
 * Android receipt validation
 * iOS receipt verification
-* User data storage
-* Game configuration data storage
-* Real-time ranking
+* Leaderboard
+* Cloud Data
+* Cloud Data Plus
 * Invite
 * Friends
-* Cache Storage
-* Players
+* Cache Data
 * Applink & Universal link
 * Cloud Code
-* Currency
+* Game Currency
 * Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
