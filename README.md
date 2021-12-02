@@ -21,6 +21,7 @@ Features
 * Applink & Universal link
 * Cloud Code
 * Game Currency
+* Chat
 * Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
