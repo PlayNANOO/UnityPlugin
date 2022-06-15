@@ -22,6 +22,7 @@ Features
 * Cloud Code
 * Game Currency
 * Chat
+* Guild
 * Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
