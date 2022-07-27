@@ -23,6 +23,7 @@ Features
 * Game Currency
 * Chat
 * Guild
+* Remote Config
 * Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
