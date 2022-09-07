@@ -24,6 +24,7 @@ Features
 * Chat
 * Guild
 * Remote Config
+* Push Notification
 * Event Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
