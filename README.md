@@ -26,6 +26,7 @@ Features
 * Remote Config
 * Push Notification
 * Event Log
+* Game Log
 
 PlayNANOO Link : [PlayNANOO Service Introduce](https://www.playnanoo.com)
 
