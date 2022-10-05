@@ -13,6 +13,7 @@ Features
 * Android receipt validation
 * iOS receipt verification
 * Leaderboard
+* Inbox
 * Cloud Data
 * Cloud Data Plus
 * Invite
